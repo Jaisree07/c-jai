@@ -23,6 +23,6 @@ public class App
         Payment payment = new Payment();
         payment.Pay("1234-5678", "09/25", "1234");
         payment.Pay("jai@upi");
-        payment.Pay(1000.00, true);
+        payment.Pay(1000.00m, true);
     }
 }
